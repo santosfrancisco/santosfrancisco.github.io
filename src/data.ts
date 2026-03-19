@@ -5,7 +5,7 @@ export const skills = [
   },
   {
     label: 'CSS',
-    value: 70,
+    value: 80,
   },
   {
     label: 'Javascript',
@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     label: 'Node',
-    value: 50,
+    value: 60,
   },
   {
     label: 'ReactJS',
@@ -51,27 +51,33 @@ export const projects = [
     description:
       'Este projeto é um widget que permite que você exiba um pequeno cartão com a música atual que está tocando no seu spotify. Foi desenvolvido para ser utilizado junto ao OBS em streams, assim mostrando aos espectadores o nome e artista das músicas que estão tocando.',
   },
-  {
-    title: 'Guia com mapas do jogo Super Metroid',
-    image: '/projects/metroid-guide.png',
-    url: 'https://metroidguide.netlify.app/',
-    description:
-      'Este projeto foi feito apenas por diversão e basicamente para uso pessoal, onde temos os mapas de alguns dos jogos da franquia Super Metroid com a função de marcar direto no mapa os itens coletados durante o jogo.',
-  },
 ];
 
 export const jobs = [
   {
     dateInfo: {
+      month: 'NOV',
+      year: '2024',
+      duration: 'nov/2024 até hoje',
+    },
+    jobInfo: {
+      role: 'Fullstack',
+      company: 'Nuvemshop',
+      description:
+        'Faço parte da equipe de desenvolvimento do checkout, fazendo manutenção e desenvolvendo novas features',
+    },
+  },
+  {
+    dateInfo: {
       month: 'JUL',
       year: '2021',
-      duration: 'jul/2021 até hoje',
+      duration: 'jul/2021 até out/24',
     },
     jobInfo: {
       role: 'Frontend Mobile',
       company: 'Midway',
       description:
-        'Faço parte da equipe de desenvolvimento do app de cartões embarcado no supperapp (e-commerce)',
+        'Fiz parte da equipe de desenvolvimento do app de cartões embarcado no supperapp (e-commerce)',
     },
   },
   {
